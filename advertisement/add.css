@@ -1,0 +1,110 @@
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 600px;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    margin-top: 30px;
+}
+.mainHeading{
+    font-size: 14px;
+   text-align: center;
+}
+
+.text{
+    font-size: 14px;
+    color: #202222;
+    line-height: 1.5px;
+}
+
+.subHeading{
+    font-size: 16px;
+    color: #FD9604;
+    font-weight: bold;
+    /* text-transform: capitalize; */
+}
+
+.flex{
+    display: flex;
+}
+
+.jc{
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto;
+}
+
+.giftBox{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.deviceText{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.content{
+    font-weight: 500;
+}
+
+.deciveImgBox{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 4px
+}
+
+.js{
+    justify-content: space-around;
+}
+
+.primaryBtn{
+    background-color: #FD9604;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    min-width: 120px;
+}
+
+.imgBox{
+    border: 0.5px solid rgb(206, 206, 206);
+    padding: 4px;
+    border-radius: 3px 3px 0 0;
+}
+
+.deviceBox{
+    text-align: center;
+}
+
+.imgBoxBtn{
+    border: 0.5px solid rgb(206, 206, 206);
+    padding: 8px;
+    margin-top: 0.5px; 
+    border-radius: 0 0 3px 3px; 
+}
+
+.chooseBox{
+margin-top: 40px;
+}
+
+.device{
+    margin-top: 8px;
+}
+
+.secContent{
+    line-height: 15.5px;
+}
+
